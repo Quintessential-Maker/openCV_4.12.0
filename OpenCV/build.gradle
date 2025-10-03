@@ -5,11 +5,11 @@ plugins {
 
 android {
     namespace 'org.opencv'
-    compileSdkVersion 36
+    compileSdkVersion 35
 
     defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 36
+        minSdkVersion 26
+        targetSdkVersion 35
         consumerProguardFiles 'consumer-rules.pro'
     }
 
@@ -22,13 +22,13 @@ android {
         }
     }
 
-    sourceSets {
+    /*sourceSets {
         main {
             java.srcDirs = ['src']
             res.srcDirs = ['res']
             manifest.srcFile 'AndroidManifest.xml'
         }
-    }
+    }*/
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -44,6 +44,7 @@ android {
 }
 
 dependencies {
+    implementation "androidx.core:core-ktx:1.17.0"
 }
 
 

@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         namespace "com.vladih.opencv_android"
-        minSdkVersion 21
+        minSdkVersion 26
         targetSdkVersion 36
         versionCode 1
         versionName "1.0"

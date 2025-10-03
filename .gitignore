@@ -1045,3 +1045,6 @@
 /OpenCV/javadoc/type-search-index.js
 /app/src/androidTest/java/com/vladih/opencv_android/ExampleInstrumentedTest.java
 /app/src/test/java/com/vladih/opencv_android/ExampleUnitTest.java
+/OpenCV/build/.transforms/633a86ed568335195a647d788f775276/results.bin
+/OpenCV/build/.transforms/633a86ed568335195a647d788f775276/transformed/bundleLibRuntimeToDirDebug/desugar_graph.bin
+/OpenCV/build/.transforms/633a86ed568335195a647d788f775276/transformed/bundleLibRuntimeToDirDebug/org/opencv/BuildConfig.dex
